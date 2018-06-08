@@ -27,7 +27,7 @@ div {
 /**
 Header Customization
 **/
-#header{
+#header {
 	margin: 10px;
 }
 
@@ -71,16 +71,16 @@ body {
 /**
 Some Info text Styling
 **/
-.some-info{
+.some-info {
   text-align: justify;
   border: 2px #000000 solid;
-	border-radius: 10px;
+  border-radius: 10px;
   margin-bottom: 15px;
   color: #495057;
   padding: 6px;
 }
 
-.some-info h3{
+.some-info h3 {
   text-align: center;
 }
 
