@@ -74,7 +74,7 @@ Some Info text Styling
 .some-info {
   text-align: justify;
   border: 2px #000000 solid;
-  border-radius: 10px;
+	border-radius: 10px;
   margin-bottom: 15px;
   color: #495057;
   padding: 6px;
@@ -104,7 +104,7 @@ Showcase- Some text Customization
 /**
 Bootstrap Image Responsivnes Customization
 **/
-.img-fluid{
+.img-fluid {
 	max-width: 100%;
 	height: auto;
 }
@@ -161,7 +161,7 @@ Some Information Section Customization
 /**
 Jumbotron Text Customization
 **/
-@media screen and (max-width: 500px){
+@media screen and (max-width: 500px) {
 	.jumbotron h1{
 		font-size: 60px;
 	}
@@ -170,16 +170,16 @@ Jumbotron Text Customization
 /**
 Logo Height Customization
 **/
-@media screen and (max-width: 498px){
+@media screen and (max-width: 498px) {
 	.logo img{
-			height: 120px;
+		height: 120px;
 	}
 }
 
 /**
 Logo Width Customization
 **/
-@media screen and (max-width: 400px){
+@media screen and (max-width: 400px) {
 	.logo img{
 		display: block;
 		margin-left: auto;
