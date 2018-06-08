@@ -1,5 +1,4 @@
 # Fend-Portfolio-Project
-Portfolio Project
 Portfolio Website - This website is developed to showcase my projects on front end development.
 
 # Contribution
