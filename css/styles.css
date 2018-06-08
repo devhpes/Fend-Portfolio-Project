@@ -1,189 +1,140 @@
-/**
-CSS for style
-**/
+/** CSS for style **/
 
-
-/**
-Profile Name
-**/
-.profile {
-	text-align: right;
+/** Profile Name **/
+ .profile {
+     text-align: right;
 }
 
-/**
-Profile Title
-**/
-.title {
-  text-align: right;
+/** Profile Title **/
+ .title {
+     text-align: right;
 }
 
-/**
-Div Customization
-**/
-div {
-	display: block;
+/** Div Customization **/
+ div {
+     display: block;
 }
 
-/**
-Header Customization
-**/
-#header {
-	margin: 10px;
+/** Header Customization **/
+ #header {
+     margin: 10px;
 }
 
-
-/**
-jumbotron
-**/
-.jumbotron {
-	background: url('../img/scenery.jpeg');
-	text-align: center;
-	height: 400px;
-	margin-top:10px;
+/** jumbotron **/
+ .jumbotron {
+     background: url('../img/scenery.jpeg');
+     text-align: center;
+     height: 400px;
+     margin-top:10px;
 }
 
-/**
-Centering Text In Image
-**/
-#centersum {
-	text-align: center;
-	margin-top: 100px;
-	margin-bottom: 100px;
+/** Centering Text In Image **/
+ #centersum {
+     text-align: center;
+     margin-top: 100px;
+     margin-bottom: 100px;
 }
 
-
-/**
-Logo Customization
-**/
-.logo img {
-	float: left;
-	position: relative;
-	width: 150px;
+/** Logo Customization **/
+ .logo img {
+     float: left;
+     position: relative;
+     width: 150px;
 }
 
-/**
-Body
-**/
-body {
-	max-width: 100%;
+/** Body **/
+ body {
+     max-width: 100%;
 }
 
-/**
-Some Info text Styling
-**/
-.some-info {
-  text-align: justify;
-  border: 2px #000000 solid;
-	border-radius: 10px;
-  margin-bottom: 15px;
-  color: #495057;
-  padding: 6px;
+/** Some Info text Styling **/
+ .some-info {
+     text-align: justify;
+     border: 2px #000000 solid;
+     border-radius: 10px;
+     margin-bottom: 15px;
+     color: #495057;
+     padding: 10px;
 }
 
-.some-info h3 {
-  text-align: center;
+ .some-info h3 {
+     text-align: center;
 }
 
-/**
-Horizontal Line Customization
-**/
-.hr {
-	height: 5px;
-	background-color: #7d97ad;
+/** Horizontal Line Customization **/
+ .hr {
+     height: 5px;
+     background-color: #7d97ad;
 }
 
-
-/**
-Showcase- Some text Customization
-**/
-.showcase {
-	text-align: center;
-	padding-bottom: 15px;
+/** Showcase- Some text Customization **/
+ .showcase {
+     text-align: center;
+     padding-bottom: 15px;
 }
 
-/**
-Bootstrap Image Responsivnes Customization
-**/
-.img-fluid {
-	max-width: 100%;
-	height: auto;
+/** Bootstrap Image Responsivnes Customization **/
+ .img-fluid {
+     max-width: 100%;
+     height: auto;
 }
 
-/**
-View Customization
-**/
-.text-muted {
-	font-size: 30px;
+/** View Customization **/
+ .text-muted {
+     font-size: 30px;
 }
 
-
-/**
-Footer Customization
-**/
-.footer {
-	background-color: #00FFFF;
-	padding-top: 20px;
-	padding-bottom: 30px;
-	margin-top: 20px;
-	text-align: center;
+/** Footer Customization **/
+ .footer {
+     background-color: #00FFFF;
+     padding-top: 20px;
+     padding-bottom: 30px;
+     margin-top: 20px;
+     text-align: center;
 }
 
-
-/**
-Font Awesome Customization And a Tag Customization
-**/
-.icons a {
-	font-size: 32px;
-	color: #000000;
-  text-decoration: none;
+/** Font Awesome Customization And a Tag Customization **/
+ .icons a {
+     font-size: 32px;
+     color: #000000;
+     text-decoration: none;
 }
 
-.icons a:hover {
-	 font-size: 32px;
-	 color: #000000;
-	 text-decoration: none;
-	 cursor:pointer;
+ .icons a:hover {
+     font-size: 32px;
+     color: #000000;
+     text-decoration: none;
+     cursor:pointer;
 }
 
-/**
-Responsivnes Tweaks
-**/
-
-/**
-Some Information Section Customization
-**/
-@media screen and (max-width: 800px){
-	.some-info h4{
-		font-size: 18px;
-	}
+/** Responsivnes Tweaks **/
+/** Some Information Section Customization **/
+ @media screen and (max-width: 800px){
+     .some-info h4{
+         font-size: 18px;
+    }
 }
 
-/**
-Jumbotron Text Customization
-**/
-@media screen and (max-width: 500px) {
-	.jumbotron h1{
-		font-size: 60px;
-	}
+/** Jumbotron Text Customization **/
+ @media screen and (max-width: 500px) {
+     .jumbotron h1{
+         font-size: 60px;
+    }
 }
 
-/**
-Logo Height Customization
-**/
-@media screen and (max-width: 498px) {
-	.logo img{
-		height: 120px;
-	}
+/** Logo Height Customization **/
+ @media screen and (max-width: 498px) {
+     .logo img{
+         height: 120px;
+    }
 }
 
-/**
-Logo Width Customization
-**/
-@media screen and (max-width: 400px) {
-	.logo img{
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		width: 100%;
-	}
+/** Logo Width Customization **/
+ @media screen and (max-width: 400px) {
+     .logo img{
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         width: 100%;
+    }
 }
